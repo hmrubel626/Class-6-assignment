@@ -1,0 +1,181 @@
+/*Common start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3F3D56;
+}
+/*Common end*/
+
+/*header start*/
+header{
+	padding: 10px 0px;
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 10%;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width: 60%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-size: 18px;
+	color: #3F3D56;
+	text-decoration: none;
+	margin: 0px 25px;
+	display: inline-block;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+	padding: 5px;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+
+}
+.wrapper2{
+	width: 60%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.banner-content{
+	text-align: center;
+}
+.banner-content h1{
+	font-size: 50px;
+	margin: 0;
+	padding: 20px 0px;
+}
+.sky-blue{
+	color: #008AFF;
+}
+.banner-content p{
+	line-height: 25px;
+	padding: 20px 0px;
+	margin: 0;
+}
+.banner-img{
+	/*border: 1px solid green;*/
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.banner-img img{
+	width: 100%;
+}
+
+/*banner end*/
+
+/*section1 start*/
+.section1{
+	overflow: hidden;
+}
+.wrapper3{
+	width: 60%;
+	margin: 0 auto;
+}
+.left-part{
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+.red{
+	color: #F15767;
+	font-size: 50px;
+	font-weight: 700;
+}
+.left-part p{
+	text-align: right;
+}
+.right-part{
+	
+	float: right;
+	width: 45%;
+}
+.right-part h1{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+/*section1 end*/
+
+
+/*section2 start*/
+.section2{
+	margin: 30px 0px 20px;
+}
+.wrapper4{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.page1{
+	width: 27%;
+	height: 320px;
+	background-color: #FDEBED;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+}
+.page2{
+	width: 27%;
+	height: 320px;
+	background-color: #EBF9F4;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+}
+.page3{
+	width: 27%;
+	height: 320px;
+	background-color: #FFF7E8;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+}
+/*section2 end*/
+
+/*footer start*/
+.wrapper5{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.box{
+width: 1040px;
+	height: 50px;
+	background-color: #008AFF;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	margin: 30px 0 10px;
+}
+.name{
+	font-weight: 700;
+	color: yellow;
+}
+/*footer end*/
